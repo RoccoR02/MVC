@@ -10,6 +10,7 @@ pool:
   vmImage: ubuntu-latest
 
 variables:
+  solution: './MVC/mvc.csproj'
   buildConfiguration: 'Release'
 
 steps:
